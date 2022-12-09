@@ -1,0 +1,62 @@
+.children {
+    padding-left: 16px;
+}
+
+.comment-wrapper {
+    position: relative;
+}
+ul {
+    list-style-type: none;
+}
+
+.task-list {
+    background-color: #e2e2e2e6;
+    -webkit-padding-start: 1.5rem;
+    padding-inline-start: 1.5rem;
+    -webkit-padding-end: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.threatLine { 
+    height: calc(100% - 150px);
+    position: absolute;
+    background-color: #3A3B3C;
+    top: 43px;
+    width: 2px;
+    left: -13px;
+}
+.child-threatLine {
+    position: absolute;
+    height: calc(100% - 297px);
+    background-color: #3A3B3C;
+    width: 2px;
+    left: 3px;
+    top: 25px;
+}
+.lastchild-threatLine {
+    position: absolute;
+    height: calc(100% - 130px);
+    background-color: #3A3B3C;
+    width: 2px;
+    left: 3px;
+    top: 25px;
+}
+.child-border-threatLine {
+    position: absolute;
+    width: 36px;
+    border-bottom-width: 2px;
+    border-left-color: #3A3B3C;
+    border-bottom-left-radius: 10px;
+    border-left-style: solid;
+    height: 35px;
+    border-bottom-style: solid;
+    border-top-color: #3A3B3C;
+    border-bottom-color: #3A3B3C;
+    border-left-width: 2px;
+    left: -13px;
+    top: -10px;
+}
+
